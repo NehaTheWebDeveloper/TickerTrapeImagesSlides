@@ -1,0 +1,13 @@
+/* section3.module.css */
+.transparent-scrollbar::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .transparent-scrollbar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .transparent-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
